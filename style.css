@@ -1,0 +1,279 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+* {
+    padding: 0;
+    font: 20px 'Agency FB', sans-serif;
+    outline: none;
+}
+
+body {
+    background-color: black;
+    height: 100%;
+    width: 100vh;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.talk {
+    position: relative;
+    display: block;
+    width: 100px;
+    height: 100px;
+    font-size: 18px;
+    border-radius: 50%;
+}
+
+.talk:hover{
+    cursor: pointer;
+}
+
+h3{
+    color: #02feff;
+    padding: 5px;
+}
+
+
+#menu_right {
+    float: right;
+    margin-right: 20px;
+   width: 300px;
+}
+
+#notes {
+    color: #015050;
+    padding: 5px;
+  border-style: none;
+  background: transparent;
+  resize: none;
+  transition: 0.3s;
+  width: calc(100% - 15px);
+}
+
+#notes:hover {
+    color: #02feff;
+    transition: 0.3s;
+}
+
+
+p {
+    color: #02feff;
+    font-size: 30px;
+  text-align: center;
+  margin: 0;
+  margin-top: 10px;
+  margin-left: -15px;
+}
+
+.vline {
+    width: 0;
+    height: 200px;
+    float: left;
+    border-left: 1px solid #015050;
+  }
+
+  .hline {
+    width: 200px;
+    height: 0;
+    border-bottom: 1px solid #015050;
+  }
+
+  #particle10 {
+    width: 330px;
+    float: right;
+    border-color: #015050;
+  }
+  
+  #particle11 {
+    margin-right: 30px;
+    margin-top: 3px;
+    width: 330px;
+    float: right;
+    border-color: #015050;
+  }
+  
+  #particle12 {
+    float: left;
+    height: 352px;
+    margin-top: -40px;
+    border-color: #015050;
+  }
+
+  .positionArc {
+      display: inline;
+      margin: auto;
+  }
+
+  .core {
+    background: #cedce0;
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 10px rgba(2, 255, 255, 0.15) solid;
+    animation: flicker 0.2s infinite;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+  }
+
+  .c_ease {
+    animation: colour_ease 3s infinite ease-in-out;
+  }
+  
+  .semi_arc {
+    width: 100px;
+    height: 100px;
+    border: 6px solid #02feff;
+    background: rgba(2, 254, 255, 0.2);
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    transform: rotateZ(0deg);
+    transition: box-shadow 3s ease;
+    text-align: center;
+    line-height: 100px;
+  }
+  
+  .semi_arc:hover {
+    box-shadow: 0px 0px 30px rgba(2, 254, 255, 0.8);
+    transition: 0.3s;
+  }
+    
+  .semi_arc_3 {
+    content: "";
+    position: absolute;
+    width: 94%;
+    height: 94%;
+    left: 3%;
+    top: 3%;
+    border: 5px solid #02feff;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    animation: rotate 4s linear infinite;
+    text-align: center;
+    line-height: 129px;
+  }
+  
+  .e5_1 {
+    color: rgba(2, 255, 255, 0.15);
+    border: 2px solid;
+    border-left: 2px solid transparent;
+    animation: rotate 5s linear infinite;
+  }
+  
+  .e5_2 {
+    color: rgba(2, 255, 255, 0.7);
+    border: 4px solid;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    animation: rotate_anti 4s linear infinite;
+  }
+  
+  .e5_3 {
+    color: rgba(2, 255, 255, 0.5);
+    border: 2px solid;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    animation: rotate 3s linear infinite;
+  }
+  
+  .e5_4 {
+    color: rgba(2, 255, 255, 0.15);
+    border: 4px solid;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    animation: rotate_anti 2s linear infinite;
+  }
+  
+  .e6 {
+    border-color: transparent;
+    background: rgba(255, 255, 255, 0);
+    width: 200px;
+    height: 200px;
+    margin-top: 100px;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotateZ(0deg);
+    }
+    100% {
+      transform: rotateZ(360deg);
+    }
+  }
+  @keyframes rotate_anti {
+    0% {
+      transform: rotateZ(360deg);
+    }
+    100% {
+      transform: rotateZ(0deg);
+    }
+  }
+  @keyframes colour_ease {
+    0% {
+      border-color: #02feff;
+    }
+    50% {
+      border-color: rgba(2, 254, 255, 0.5);
+    }
+    100% {
+      border-color: #02feff;
+    }
+  }
+  @keyframes flicker {
+    0% {
+      box-shadow: 0px 0px 16px 8px rgba(150, 255, 255, 0.5), inset 0px 1px 4px 2px rgba(21, 211, 233, 0.3);
+    }
+    40% {
+      box-shadow: 0px 0px 16px 8px rgba(150, 255, 255, 0.5), inset 0px 1px 4px 2px rgba(21, 211, 233, 0.3);
+    }
+    50% {
+      box-shadow: 0px 0px 16px 6px rgba(150, 255, 255, 0.5), inset 0px 1px 100px 2px rgba(21, 211, 233, 0.3);
+    }
+    60% {
+      box-shadow: 0px 0px 16px 8px rgba(150, 255, 255, 0.5), inset 0px 1px 4px 2px rgba(21, 211, 233, 0.3);
+    }
+    100% {
+      box-shadow: 0px 0px 16px 8px rgba(150, 255, 255, 0.5), inset 0px 1px 4px 2px rgba(21, 211, 233, 0.3);
+    }
+  }
+  @keyframes flicker2 {
+    0% {
+      box-shadow: 0px 0px 60px 25px rgba(150, 255, 255, 0.5), inset 0px 1px 4px 2px rgba(21, 211, 233, 0.3);
+    }
+    40% {
+      box-shadow: 0px 0px 60px 25px rgba(150, 255, 255, 0.5), inset 0px 1px 4px 2px rgba(21, 211, 233, 0.3);
+    }
+    50% {
+      box-shadow: 0px 0px 50px 17px rgba(150, 255, 255, 0.5), inset 0px 1px 100px 2px rgba(21, 211, 233, 0.3);
+    }
+    60% {
+      box-shadow: 0px 0px 60px 25px rgba(150, 255, 255, 0.5), inset 0px 1px 4px 2px rgba(21, 211, 233, 0.3);
+    }
+    100% {
+      box-shadow: 0px 0px 60px 25px rgba(150, 255, 255, 0.5), inset 0px 1px 4px 2px rgba(21, 211, 233, 0.3);
+    }
+  }
+  @keyframes big_flicker {
+    0% {
+      box-shadow: 0px 0px 40px 20px rgba(150, 255, 255, 0.5), inset 0px 1px 30px 15px rgba(21, 211, 233, 0.3);
+    }
+    40% {
+      box-shadow: 0px 0px 40px 20px rgba(150, 255, 255, 0.5), inset 0px 1px 30px 15px rgba(21, 211, 233, 0.3);
+    }
+    50% {
+      box-shadow: 0px 0px 35px 17px rgba(150, 255, 255, 0.5), inset 0px 1px 50px 40px rgba(21, 211, 233, 0.3);
+    }
+    60% {
+      box-shadow: 0px 0px 40px 20px rgba(150, 255, 255, 0.5), inset 0px 1px 30px 15px rgba(21, 211, 233, 0.3);
+    }
+    100% {
+      box-shadow: 0px 0px 40px 20px rgba(150, 255, 255, 0.5), inset 0px 1px 30px 15px rgba(21, 211, 233, 0.3);
+    }
+}
